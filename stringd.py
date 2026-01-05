@@ -1,0 +1,16 @@
+#*------------------------String and methods----------------------------*/
+name = "Hello python programming"
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
+print(name.title())
+print(name.split())
+ans = name.split()
+print(len(name))
+print(name.find('r'))
+print(name.replace('h', 'k'))
+print(name.count('p'))
+print(ans)
+myans = ' '.join(ans)
+print(myans)
+print(name, sep= '/')
