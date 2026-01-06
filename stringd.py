@@ -13,4 +13,7 @@ print(name.count('p'))
 print(ans)
 myans = ' '.join(ans)
 print(myans)
-print(name, sep= '/')
+
+num = "123456"
+
+print(int(num[0]) + int(num[5]))
